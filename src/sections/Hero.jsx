@@ -1,8 +1,8 @@
 function Hero() {
   return (
-    <section className="flex items-center md:justify-start px-5 md:px-10 py-4 rounded-b-[50px] w-full min-h-[70vh] bg-burgundy bg-opacity-30 hero">
-      <div className="md:w-[50%] text-white flex flex-col items-center text-center md:text-left md:items-start gap-4">
-        <h1 className="uppercase text-3xl md:text-6xl font-libre font-bold">
+    <section className="flex items-center md:justify-start px-5 md:px-10 py-4 w-full min-h-[70vh] bg-burgundy hero">
+      <div className="md:w-[50%] max-w-5xl text-white flex flex-col items-center text-center md:text-left md:items-start gap-4">
+        <h1 className="uppercase text-3xl md:text-6xl font-poppins font-bold">
           Unleash your inner strength{" "}
         </h1>
         <p>
@@ -10,7 +10,7 @@ function Hero() {
           eiusmod
         </p>
 
-        <button className="bg-white text-black hover:bg-black hover:text-white rounded-xl p-3">
+        <button className="bg-burgundy text-white hover:bg-white hover:text-burgundy rounded-xl p-3 font-semibold">
           Get Started
         </button>
       </div>

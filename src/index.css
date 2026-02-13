@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 @theme {
-    --color-black-500: #090909;
+    --color-black: #090909;
     --color-burgundy: #4c0223;
     --font-libre: "Libre Bodoni", serif;
     --font-montserrat: "Montserrat", sans-serif;
@@ -14,9 +14,8 @@ body {
 }
 
 .hero {
-    /* The first value is the overlay, the second is the image */
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url("assets/hero.avif");
 
     background-position: center;
