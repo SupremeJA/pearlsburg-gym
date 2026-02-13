@@ -3,7 +3,7 @@ import { List, X } from "@phosphor-icons/react";
 
 function Nav() {
   return (
-    <header className="flex justify-between items-center text-white w-full bg-black px-20 py-3">
+    <header className="flex justify-between items-center text-white w-full bg-black px-10 md:px-20 py-3">
       <div className="w-20">
         <img src={logo} alt="logo" />
       </div>
