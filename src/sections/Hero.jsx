@@ -1,7 +1,7 @@
 function Hero() {
   return (
-    <section className="flex items-center md:justify-start px-5 md:px-10 py-4 w-full min-h-[70vh] bg-burgundy hero">
-      <div className="md:w-[50%] max-w-5xl text-white flex flex-col items-center text-center md:text-left md:items-start gap-4">
+    <section className="flex items-center md:justify-start px-5 md:px-20 py-4 w-full min-h-[70vh] bg-burgundy hero">
+      <div className="md:w-150 max-w-5xl text-white flex flex-col items-center text-center md:text-left md:items-start gap-4">
         <h1 className="uppercase text-3xl md:text-6xl font-poppins font-bold">
           Unleash your inner strength{" "}
         </h1>

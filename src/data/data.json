@@ -1,0 +1,44 @@
+{
+  "services": [
+    {
+      "title": "Personal Training",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+      "icon": "dumbbell"
+    },
+    {
+      "title": "Group Classes",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+      "icon": "users"
+    },
+    {
+      "title": "State-of-art Equipment",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+      "icon": "wrench"
+    }
+  ],
+  "pricing": [
+    {
+      "plan": "Basic Membership",
+      "price": "$29/month",
+      "features": ["Access to gym equipment", "Locker room access"]
+    },
+    {
+      "plan": "Premium Membership",
+      "price": "$49/month",
+      "features": [
+        "All Basic features",
+        "Personal training sessions",
+        "Group classes"
+      ]
+    },
+    {
+      "plan": "VIP Membership",
+      "price": "$79/month",
+      "features": [
+        "All Premium features",
+        "Nutrition consultation",
+        "Priority booking"
+      ]
+    }
+  ]
+}
