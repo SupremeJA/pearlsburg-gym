@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --color-black-500: #090909;
+    --color-burgundy: #4c0223;
+    --font-libre: "Libre Bodoni", serif;
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+body {
+    background: var(--color-burgundy);
+    font-family: var(--font-montserrat);
+}
+
+.hero {
+    /* The first value is the overlay, the second is the image */
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("assets/hero.avif");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
