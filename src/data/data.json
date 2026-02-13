@@ -40,5 +40,22 @@
         "Priority booking"
       ]
     }
+  ],
+  "testimonials": [
+    {
+      "name": "John Doe",
+      "message": "This gym has transformed my fitness journey! The trainers are amazing.",
+      "rating": 5
+    },
+    {
+      "name": "Jane Smith",
+      "message": "Great equipment and friendly staff. Highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "Mike Johnson",
+      "message": "The group classes are fun and effective. I've seen real results.",
+      "rating": 4
+    }
   ]
 }

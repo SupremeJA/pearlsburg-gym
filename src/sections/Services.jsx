@@ -26,7 +26,7 @@ function Services() {
                 <IconComponent size={32} weight="thin" />
               </span>
               <span>
-                <h3 className="font-semibold">{service.title}</h3>
+                <h3 className="font-semibold mb-2">{service.title}</h3>
                 <p>{service.description}</p>
               </span>
             </div>

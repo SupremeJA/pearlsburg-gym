@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import Services from "./sections/Services";
+import Testimonials from "./sections/Testimonials";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav />
       <Hero />
       <Services />
+      <Testimonials />
     </>
   );
 }
