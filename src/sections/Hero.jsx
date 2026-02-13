@@ -56,7 +56,7 @@ function Hero() {
             View Classes
           </button>
         </div>
-        <div className="hero-stats grid grid-cols-3 gap-6 text-center text-sm tracking-[0.3em] text-white/70">
+        <div className="hero-stats grid grid-cols-2 gap-6 text-center text-sm tracking-[0.3em] text-white/70">
           <div>
             <p className="text-3xl font-semibold text-white">15+</p>
             MEMBERSHIPS
@@ -64,10 +64,6 @@ function Hero() {
           <div>
             <p className="text-3xl font-semibold text-white">250</p>
             COACHED ATHLETES
-          </div>
-          <div>
-            <p className="text-3xl font-semibold text-white">6</p>
-            CLASS TYPES
           </div>
         </div>
       </div>
