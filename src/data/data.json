@@ -19,12 +19,12 @@
   "pricing": [
     {
       "plan": "Basic Membership",
-      "price": "$29/month",
+      "price": "29000/month",
       "features": ["Access to gym equipment", "Locker room access"]
     },
     {
       "plan": "Premium Membership",
-      "price": "$49/month",
+      "price": "49000/month",
       "features": [
         "All Basic features",
         "Personal training sessions",
@@ -33,7 +33,7 @@
     },
     {
       "plan": "VIP Membership",
-      "price": "$79/month",
+      "price": "79000/month",
       "features": [
         "All Premium features",
         "Nutrition consultation",
