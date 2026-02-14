@@ -23,7 +23,10 @@ function Pricing() {
   ]);
 
   return (
-    <section className="pricing bg-[#090909] text-white px-6 py-16 md:px-16">
+    <section
+      id="pricing"
+      className="pricing bg-[#090909] text-white px-6 py-16 md:px-16"
+    >
       <div className="max-w-5xl mx-auto text-center space-y-4">
         <p className="text-xs uppercase tracking-[0.6em] text-yellow-400">
           Membership Plans
@@ -41,7 +44,7 @@ function Pricing() {
         {data.pricing.map((plan) => (
           <article
             key={plan.plan}
-            className="pricing-card bg-white/5 border border-white/10 rounded-3xl p-8 flex flex-col gap-6 backdrop-blur shadow-[0_20px_45px_rgba(0,0,0,0.45)] transition duration-300 hover:-translate-y-1 hover:border-yellow-400"
+            className="pricing-card bg-white/5 border border-white/10 rounded-3xl p-8 flex flex-col gap-6 backdrop-blur shadow-[0_20px_45px_rgba(0,0,0,0.45)] transition duration-300 hover:-translate-y-1 hover:border-white"
           >
             <span className="text-xs uppercase tracking-[0.4em] text-slate-300">
               {plan.plan}

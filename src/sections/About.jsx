@@ -82,7 +82,7 @@ function About() {
               return (
                 <article
                   key={highlight.title}
-                  className="about-highlight flex flex-col items-start gap-3 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_20px_45px_rgba(0,0,0,0.35)] transition hover:-translate-y-1 hover:border-yellow-400"
+                  className="about-highlight flex flex-col items-start gap-3 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-[0_20px_45px_rgba(0,0,0,0.35)] transition hover:-translate-y-1 hover:border-white"
                 >
                   <span className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[#4c0223] via-[#6a0a1b] to-[#8b0722] text-white shadow-lg shadow-[#4c0223]/40">
                     <Icon size={24} weight="bold" />

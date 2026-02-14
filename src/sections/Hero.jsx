@@ -31,7 +31,10 @@ function Hero() {
   ]);
 
   return (
-    <section className="hero relative min-h-[75vh] bg-gradient-to-br from-black via-[#2c020f] to-[#4c0223] text-white px-6 md:px-20 py-12 flex items-center">
+    <section
+      id="home"
+      className="hero relative min-h-[75vh] bg-gradient-to-br from-black via-[#2c020f] to-[#4c0223] text-white px-6 md:px-20 py-12 flex items-center"
+    >
       <div className="absolute inset-0 opacity-60">
         <div className="absolute left-[10%] top-[20%] h-32 w-32 rounded-full bg-burgundy blur-3xl" />
         <div className="absolute right-10 bottom-16 h-44 w-44 rounded-full bg-white/10 blur-3xl" />

@@ -56,7 +56,7 @@ function Services() {
           return (
             <article
               key={service.title}
-              className="service-card bg-white/5 border border-white/10 rounded-3xl p-6 flex flex-col gap-4 items-center text-center transition hover:-translate-y-1 hover:border-yellow-400 hover:bg-white/10"
+              className="service-card bg-white/5 border border-white/10 rounded-3xl p-6 flex flex-col gap-4 items-center text-center transition hover:-translate-y-1 hover:border-white hover:bg-white/10"
             >
               <span className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-[#4c0223] via-[#6a0a1b] to-[#8b0722] text-white shadow-lg shadow-[#4c0223]/40">
                 <IconComponent size={32} weight="bold" />

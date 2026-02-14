@@ -41,7 +41,7 @@ function Testimonials() {
         {data.testimonials.map((testimonial) => (
           <article
             key={testimonial.name}
-            className="testimonial-card bg-white/5 border border-white/5 rounded-3xl p-7 flex flex-col gap-5 shadow-[0_20px_45px_rgba(0,0,0,0.5)] transition duration-300 hover:-translate-y-1 hover:border-yellow-400"
+            className="testimonial-card bg-white/5 border border-white/5 rounded-3xl p-7 flex flex-col gap-5 shadow-[0_20px_45px_rgba(0,0,0,0.5)] transition duration-300 hover:-translate-y-1 hover:border-white"
           >
             <p className="italic text-slate-100 text-sm leading-relaxed">
               “{testimonial.message}”
