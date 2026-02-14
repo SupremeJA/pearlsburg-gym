@@ -30,7 +30,10 @@ function Services() {
   ]);
 
   return (
-    <section className="services bg-gradient-to-b from-[#0f0f0f] to-[#1f1f1f] text-white px-6 py-14 md:px-16">
+    <section
+      id="services"
+      className="services bg-gradient-to-b from-[#0f0f0f] to-[#1f1f1f] text-white px-6 py-14 md:px-16"
+    >
       <div className="max-w-5xl mx-auto text-center space-y-3">
         <p className="text-xs uppercase tracking-[0.6em] text-yellow-400">
           What we offer
